@@ -19,7 +19,6 @@ a{
     height: 400px;
 }
 
-
 #title{
     text-align: center;
     margin-top: 20px;
@@ -56,6 +55,14 @@ a{
     color:red;
 }
 
+input[type="textarea"]{
+    background-color: blue;
+    color:white
+}
+
+input[type="submit"],input[type="reset"]{
+    background-color: green;
+}
 @media screen and (max-width: 800px){
     #left,#center,#right{
         clear: both;
